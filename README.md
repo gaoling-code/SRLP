@@ -6,7 +6,13 @@ This repository contains the code for the paper "A Semantic Representation Learn
 
 Multimodal science question answering performs multimodal learning and logical reasoning based on given visual and text input to answer science questions. For a particular input pair, visual and text express the common semantic meaning through different modal carriers. The semantic meanings expressed by the visual and text modal carriers sourcing different pairs are independent. However, the high entanglement between modal and semantic representation and the weak semantic differences between different pairs hinder the learning of visual and text semantic representation. In this work, we introduce a semantic representation learning perspective-based approach (SRLP) for multimodal science question answering. First, we maximize the matching degree between visual and text semantic representations within the particular pair by disentanglement and agreement constraints. At the same time, we combine contrastive learning with disentangled representation learning to enhance the cross-modal semantic representation learning of the particular pair. The learned cross-modal semantic representation is finally fed into the decoder to generate the answer text. Experiments on two multimodal science question answering datasets demonstrate the excellent performance of SRLP, proving the effectiveness of cross-modal agreement and contrastive learning.
 
+## Requirements
 
+Install all required python dependencies:
+
+```
+pip install -r requirements.txt
+```
 
 ## Datasets
 
@@ -20,7 +26,6 @@ The models are trained and evaluated on two open-source datasets:
 
 The processed vision features for ScienceQA are available at [huggingfcae vision features](https://huggingface.co/cooelf/vision_features/tree/main). `all-MiniLM-L6-v2` and `unifiedqa-t5-base` can be downloaded at [huggingface sentence-transformers](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) and [huggingface unifiedqa-t5-base](https://huggingface.co/allenai/unifiedqa-t5-base).
 
-The pretrained base models on ScienceQA is available at [mc-cot/release/pretrained-base-model-on-scienceqa](https://github.com/chengtan9907/mc-cot/releases/download/scienceqa/results.zip).
 
 The folder with all related files looks like:
 
@@ -53,7 +58,7 @@ We highly thank "Multimodal Chain-of-Thought Reasoning in Language Models". [pap
 
 ## Reference
 ```
-@article{Ling2026SRLP,
+@article{Ling_2026_SRLP,
   title={A Semantic Representation Learning Perspective-based Approach for Multimodal Science Question Answering},
   author={Ling Gao, Nan Sheng, Rui Song and Hao Xu},
   journal={},
