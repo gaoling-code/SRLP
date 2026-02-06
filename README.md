@@ -60,7 +60,7 @@ We highly thank "Multimodal Chain-of-Thought Reasoning in Language Models". [pap
 ```
 @article{Ling_2026_SRLP,
   title={A Semantic Representation Learning Perspective-based Approach for Multimodal Science Question Answering},
-  author={[Ling Gao](https://scholar.google.com.hk/citations?user=tl-cCNUAAAAJ&hl=zh-CN), Nan Sheng, Rui Song and Hao Xu},
+  author={Ling Gao, Nan Sheng, Rui Song and Hao Xu},
   journal={},
   year={2026}
 }
